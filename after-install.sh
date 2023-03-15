@@ -60,6 +60,7 @@ sudo pacman -Sy --needed --noconfirm cups cups-pdf cups-filters cups-pk-helper
 
 #>>Sound
 sudo pacman -Sy --needed --noconfirm alsa alsa-utils pulseaudio pulseaudio-bluetooth pulseaudio-alsa pulseaudio-jack pulseaudio-equalizer
+sudo pacman -Sy --needed --noconfirm pavucontrol
 
 #>> Firewall
 #sudo firewall-cmd --add-port=1025-65535/tcp --permanent
