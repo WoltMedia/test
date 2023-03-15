@@ -23,7 +23,7 @@ pacman -Sy
 
 
 #--Install for pacman Utilities
-pacman -Sy --noconfirm arch-install-scripts archinstall amd-ucode bash-completion base base-devel btrfs-progs curl dosfstools efibootmgr exfat-utils fsarchiver grub git inetutils linux linux-firmware mtools memtest86+ mkinitcpio mkinitcpio-archiso mkinitcpio-nfs-utils nano networkmanager network-manager-applet nvme-cli nfs-utils os-prober pacman-mirrorlist pacman-contrib reflector rsync sudo usbutils virt-manager wget
+pacman -Sy --noconfirm arch-install-scripts archinstall amd-ucode bash-completion base base-devel btrfs-progs curl dosfstools efibootmgr exfat-utils fsarchiver grub git inetutils linux linux-firmware mtools memtest86+ mkinitcpio mkinitcpio-archiso mkinitcpio-nfs-utils nano networkmanager network-manager-applet nvme-cli nfs-utils os-prober pacman-mirrorlist pacman-contrib reflector rsync sudo usbutils wget
 
 
 #--GRUB
