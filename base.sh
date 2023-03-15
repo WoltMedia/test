@@ -36,6 +36,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 ##--> INSTALL-DESKTOP <--##
+
 #-- Budgie Desktop
 #pacman -S --needed --noconfirm lightdm lightdm-gtk-greeter budgie-desktop gnome gnome-control-center materia-gtk-theme i3lock
 
@@ -43,7 +44,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 #pacman -S --noconfirm lightdm lightdm-webkit2-greeter cinnamon system-config-printer gnome-keyring blueberry gnome-terminal gnome-screenshot lightdm-gtk-greeter lightdm-gtk-greeter-settings arc-gtk-theme archlinux-wallpaper
 
 #--Gnome Desktop
-#pacman -S --needed --noconfirm gdm gnome gnome-extra gnome-tweaks gnome-nettool gnome-usage arc-gtk-theme arc-icon-theme
+#pacman -S --needed --noconfirm gdm gnome gnome-extra gnome-tweaks gnome-nettool gnome-usage arc-gtk-theme arc-icon-theme xorg
 
 #--Plasma Desktop
 #pacman -S --needed --noconfirm sddm plasma konsole kwrite dolphin materia-kde packagekit-qt5
